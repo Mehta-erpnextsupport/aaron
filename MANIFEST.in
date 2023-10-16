@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aaron *.css
+recursive-include aaron *.csv
+recursive-include aaron *.html
+recursive-include aaron *.ico
+recursive-include aaron *.js
+recursive-include aaron *.json
+recursive-include aaron *.md
+recursive-include aaron *.png
+recursive-include aaron *.py
+recursive-include aaron *.svg
+recursive-include aaron *.txt
+recursive-exclude aaron *.pyc
